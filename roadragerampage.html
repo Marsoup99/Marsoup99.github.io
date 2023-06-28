@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>HoangNguyen Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+				<!-- Header -->
+					<header id="header">
+						<a class="logo">Projects</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
+							<li><a href="generic.html">Resume</a></li>
+							<li><a href="elements.html">About me</a></li>
+						</ul>
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Post -->
+						<section class="post">
+							<header>
+								<span class="date">March 15, 2023 to May 20, 2023</span>
+								<h2><a href="#">Road Rage Rampage</a></h2>
+								<h4>Personal project.</h4>
+							</header>
+							<p>A classic 3 lane runner game combine with roguelike gameplay.</p>
+							<p>Gameplay demo.</p>
+							<div class="video-container">
+								
+								<iframe src="https://www.youtube.com/embed/_TyJeKKQh-s?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+							</div>
+							<div>
+								<img src="images/car/cover.png" alt="" />
+							</div>
+							<p>Some main features of the game:</p>
+							<h3>1. Collisions:</h3>
+							<p>Based on the collision position determined by the box colliders of two cars, different responses will be generated. 
+								When the cars collide, the collision position will be calculated based on their box colliders, enabling identification of whether the impact occurred at the front or back, left or right. 
+								The appropriate response will then be initiated based on this information.
+							</p>
+							<!-- <div class="row">
+								<div class="column">
+								  <img src="images/car/" alt="" style="width:100%">
+								  <p style="text-align:center;">Front</p>
+								</div>
+								<div class="column">
+								  <img src="images/pic09.jpg" alt="" style="width:100%">
+								  <p style="text-align:center;">Side</p>
+								</div>
+								<div class="column">
+								  <img src="images/pic09.jpg" alt="" style="width:100%">
+								  <p style="text-align:center;">Back</p>
+								</div>
+							</div> -->
+							
+							<h3>2. Enemies:</h3>
+							<p>Using raycast to check surrounding area of the enemy for potential obstacles and dodge obstacles if possible.</p>
+							<p>Enemies behavior driven by simple state machine base on the distance between them and player. Then I can divine enemies to 3 type and using Scriptable Object for easy management.
+							</p>
+							<p>Every enemy is equipped with a different weapon, while bosses and mini-bosses boast two weapons along with their own set of unique skills.</p>
+							<div>
+								<img src="images/car/cars.png" alt="" />
+							</div>
+							<h3>3. Items: </h3>
+							<p>24 items including weapons, armor, nitro engines, and relics to enhance gameplay strategy. </p>
+							<p>Certain items within the game provide increase player stat (hp, nitro speed,..) or buffs to player damage, such as granting increased damage against burning enemies. Additionally, some items may possess their own unique effects, offering further enhancements or abilities to the player.</p>
+							
+							<h3>4. Elements: </h3>
+							<p>In the game, there are four types of elemental damage available: fire, toxic, electric, and normal. Each element exhibits unique interactions. For instance, fire damage inflicts increased damage to enemies with red health but less damage to armor or shield and has a chance to apply a burn effect.</p>
+							<div class="row">
+								<div class="column">
+								  <img src="images/car/burncar.png" alt="" style="width:100%">
+								  <p style="text-align:center;">Burning</p>
+								</div>
+								<div class="column">
+								  <img src="images/car/decaycar.png" alt="" style="width:100%">
+								  <p style="text-align:center;">Decay</p>
+								</div>
+								<div class="column">
+								  <img src="images/car/electro.png" alt="" style="width:100%">
+								  <p style="text-align:center;">Electocute</p>
+								</div>
+							</div>
+							
+							<h3>5. Random items drop and roads:</h3>
+							<p> Every run will have unpredictable drops and road choices, keeping each playthrough fresh and engaging.</p>
+							<div class="row">
+								<div class="column">
+								  <img src="images/car/item.png" alt="" style="width:100%">
+								  <p style="text-align:center;">Items</p>
+								</div>
+								<div class="column">
+								  <img src="images/car/roads.png" alt="" style="width:100%">
+								  <p style="text-align:center;">Road choices</p>
+								</div>
+							</div>
+
+							<h3>6. Upgrades:</h3>
+							<p>After a run, player will reward with some coins, they can use these coins to upgrades to their car</p>
+							<div class="row">
+								<div class="column">
+								  <img src="images/car/upgrade.png" alt="" style="width:150%">
+								</div>
+							</div>
+
+							<a href="#">Check out the game.</a>
+							<p></p>
+							<a href="#">Check out the code.</a>
+						</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>104 Hồ Văn Tư, p.Trường Thọ<br />
+								Thủ Đức, Việt Nam</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a>+84 398536134</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a>nd.hoang484@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
