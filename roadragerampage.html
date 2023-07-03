@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/x-icon" href="images/icon.png">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -38,8 +39,7 @@
 						<!-- Post -->
 						<section class="post">
 							<header>
-								<span class="date">March 15, 2023 to May 20, 2023</span>
-								<h2><a href="#">Road Rage Rampage</a></h2>
+								<h2><a>Road Rage Rampage</a></h2>
 								<h4>Personal project.</h4>
 							</header>
 							<p>A classic 3 lane runner game combine with roguelike gameplay.</p>
@@ -49,9 +49,9 @@
 								<iframe width="560" height="315" src="https://www.youtube.com/embed/FRlsih13DMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 							</div>
-							<div>
+							<span class="image">
 								<img src="images/car/cover.png" alt="" />
-							</div>
+							</span>
 							<p>Some main features of the game:</p>
 							<h3>1. Collisions:</h3>
 							<p>Based on the collision position determined by the box colliders of two cars, different responses will be generated. 
@@ -78,13 +78,27 @@
 							<p>Enemies behavior driven by simple state machine base on the distance between them and player. Then I can divine enemies to 3 type and using Scriptable Object for easy management.
 							</p>
 							<p>Every enemy is equipped with a different weapon, while bosses and mini-bosses boast two weapons along with their own set of unique skills.</p>
-							<div>
+							<div class ="image fit">
 								<img src="images/car/cars.png" alt="" />
 							</div>
+
 							<h3>3. Items: </h3>
 							<p>24 items including weapons, armor, nitro engines, and relics to enhance gameplay strategy. </p>
 							<p>Certain items within the game provide increase player stat (hp, nitro speed,..) or buffs to player damage, such as granting increased damage against burning enemies. Additionally, some items may possess their own unique effects, offering further enhancements or abilities to the player.</p>
-							
+							<div class="row">
+								<div class="column">
+								  <img src="images/car/no_item.png" alt="" style="width:100%">
+								  <p style="text-align:center;">No item</p>								</div>
+								<div class="column">
+								  <img src="images/car/full_item_1.png" alt="" style="width:100%">
+								  <p style="text-align:center;">Full Item 1</p>
+								</div>
+								<div class="column">
+								  <img src="images/car/full_item_2.png" alt="" style="width:100%">
+								  <p style="text-align:center;">Full Item 2</p>
+								</div>
+							</div>
+
 							<h3>4. Elements: </h3>
 							<p>In the game, there are four types of elemental damage available: fire, toxic, electric, and normal. Each element exhibits unique interactions. For instance, fire damage inflicts increased damage to enemies with red health but less damage to armor or shield and has a chance to apply a burn effect.</p>
 							<div class="row">
@@ -123,7 +137,7 @@
 								</div>
 							</div>
 
-							<a href="https://drive.google.com/uc?export=download&id=1RsJxvr4BzAyCpjpqb-F9YSbQ1N41onYh">Check out the game.</a>
+							<a href="https://drive.google.com/uc?export=download&id=1CGHrnzMNYiYC6-sQTEwbg6h7d6j_63DD">Check out the game (Android).</a>
 							<p></p>
 							<a href="https://github.com/Marsoup99/RoadRageRampage.git">Check out the code.</a>
 						</section>
@@ -145,12 +159,12 @@
 								<h3>Email</h3>
 								<p><a>nd.hoang484@gmail.com</a></p>
 							</section>
-							<section>
+							<!-- <section>
 								<h3>Social</h3>
 								<ul class="icons alt">
 									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
-							</section>
+							</section> -->
 						</section>
 					</footer>
 
